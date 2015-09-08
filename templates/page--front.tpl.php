@@ -145,7 +145,12 @@
 </div>
 
 <!-- SEARCH BOX -->       
-<section class="search-home">
+<div class="search-home search-bar">
+
+<div class="container">
+
+<div class="region-search-bar">
+<section id="home-search">
 
     <!-- Pay attention to METHOD -->
     <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
@@ -186,9 +191,11 @@
           <li><a href="https://newcatalog.library.cornell.edu/databases/subject/Human%20Resources,%20Labor%20&%20Employment">Databases</a> / </li>
           <li><a href="http://guides.library.cornell.edu/prf.php?account_id=9292">Research Guides</a></li>
         </ul>
-    </form>         
-    
-</section>
+    </form>  
+    </section>       
+    </div>
+</div>
+</div>
 
 <div class="main-content">
   <div class="container">
