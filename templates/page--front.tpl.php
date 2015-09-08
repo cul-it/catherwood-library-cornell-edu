@@ -142,6 +142,7 @@
       </div>
     </nav>
   <?php endif; ?>
+</div>
 
 <!-- SEARCH BOX -->       
 <div class="search-home search-bar">
@@ -193,7 +194,6 @@
     </form>  
     </section>       
     </div>
-</div>
 </div>
 </div>
 
