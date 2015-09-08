@@ -7833,9 +7833,6 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   font-size: 18px; }
 
 .search-home {
-  position: absolute;
-  top: 170px;
-  left: 0;
   width: 100%;
   height: 190px;
   background: #222;
