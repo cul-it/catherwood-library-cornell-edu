@@ -144,11 +144,51 @@
   <?php endif; ?>
 </div>
 
-<div class="search-bar">
-  <div class="container">
-    <?php print render($page['search_bar']); ?>
-  </div>
-</div>
+<!-- SEARCH BOX -->       
+<section class="search-home">
+
+    <!-- Pay attention to METHOD -->
+    <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+
+        <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
+
+
+        <div class="filtered-search">
+
+            <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
+
+            <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+                <option value="catalog" selected="selected">Library Catalog</option>
+                <option value="worldcat">WorldCat</option>
+                <option value="site">Site Search</option>
+            </select>-->
+
+            <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down"></span>
+
+              <ul id="filter-search-nav">
+                  <li role="listitem"><a href="#" title="">Library Catalog</a></li>
+                  <li role="listitem"><a href="#" title="">WorldCat</a></li>
+                  <li role="listitem"><a href="#" title="">Site Search</a></li>
+              </ul>
+
+          </div>
+
+          
+
+            <button type="submit" class="submit-search" href="#">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+
+        </div>
+
+        <ul class="external-search">
+          <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+          <li><a href="https://newcatalog.library.cornell.edu/databases/subject/Human%20Resources,%20Labor%20&%20Employment">Databases</a> / </li>
+          <li><a href="http://guides.library.cornell.edu/prf.php?account_id=9292">Research Guides</a></li>
+        </ul>
+    </form>         
+    
+</section>
 
 <div class="main-content">
   <div class="container">
