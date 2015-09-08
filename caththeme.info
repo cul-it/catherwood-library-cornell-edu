@@ -39,3 +39,4 @@ regions[home_column3]   = 'Home column 3'
 ; ;;;;;;;;;;;;;;;;;;;;;
 
 scripts[] = 'js/bootstrap.min.js'
+scripts[] = 'js/searchbox.js'
