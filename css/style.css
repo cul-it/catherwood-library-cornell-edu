@@ -7833,8 +7833,6 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   font-size: 18px; }
 
 .search-home {
-  position: absolute;
-  top: 170px;
   left: 0;
   width: 100%;
   height: 190px;
@@ -7883,7 +7881,11 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   cursor: pointer; }
 
 .search-home .filtered-search .filter-search .active {
-  display: none; }
+  display: inline;
+  padding-left: 10px;
+  line-height: 51px;
+  vertical-align: top;
+  padding-right: 0; }
 
 .search-home .filtered-search .filter-search .glyphicon-chevron-down {
   color: #1ebae1;
