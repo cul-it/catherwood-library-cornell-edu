@@ -155,7 +155,7 @@
     <!-- Pay attention to METHOD -->
     <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
 
-        <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
+        <div class="block-title"><label for="name">Search <span class="search-filter-selected">Library Catalog</span></label></div>
 
 
         <div class="filtered-search">
@@ -186,11 +186,7 @@
 
         </div>
 
-        <ul class="external-search">
-          <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
-          <li><a href="https://newcatalog.library.cornell.edu/databases/subject/Human%20Resources,%20Labor%20&%20Employment">Databases</a> / </li>
-          <li><a href="http://guides.library.cornell.edu/prf.php?account_id=9292">Research Guides</a></li>
-        </ul>
+       
     </form>  
     </section>       
     </div>

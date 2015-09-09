@@ -137,6 +137,34 @@
       .search-home .external-search li a {
         color: #fff; }
 
+
+.home-search {
+	padding: 1em 0;
+	border: 0;
+	.block-title {
+		font-size: 20px;
+		margin-bottom: .5em;
+		float: left;
+	}
+	.form-group {
+		@include make-xs-column(8);
+		padding-left: 0;
+	}
+	.form-control {
+		width: 100%;
+	}
+	.btn-search {
+		padding: 5px 0;
+		i {
+			font-size: 32px;
+		}
+	}
+	form {
+		clear: both;
+	}
+}
+
+
 // Search this site
 // ------------------------ //
 .search-site-link {
