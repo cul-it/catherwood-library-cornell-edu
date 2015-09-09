@@ -144,10 +144,52 @@
   <?php endif; ?>
 </div>
 
-<div class="search-bar">
-  <div class="container">
-    <?php print render($page['search_bar']); ?>
-  </div>
+<div class="search-home search-bar">
+
+<div class="container">
+
+<div class="region-search-bar">
+<section id="home-search">
+
+    <!-- Pay attention to METHOD -->
+    <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+
+        <div class="block-title"><label for="name">Search <span class="search-filter-selected">Library Catalog</span></label></div>
+
+
+        <div class="filtered-search">
+
+            <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
+
+            <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+                <option value="catalog" selected="selected">Library Catalog</option>
+                <option value="worldcat">WorldCat</option>
+                <option value="site">Site Search</option>
+            </select>-->
+
+            <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down"></span>
+
+              <ul id="filter-search-nav">
+                  <li role="listitem"><a href="#" title="">Library Catalog</a></li>
+                  <li role="listitem"><a href="#" title="">WorldCat</a></li>
+                  <li role="listitem"><a href="#" title="">Site Search</a></li>
+              </ul>
+
+          </div>
+
+          
+
+            <button type="submit" class="submit-search" href="#">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+
+        </div>
+
+       
+    </form>  
+    </section>       
+    </div>
+</div>
 </div>
 
 <div class="main-content">
