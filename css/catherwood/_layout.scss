@@ -36,6 +36,9 @@
 // Home page
 // -------------- //
 .home-feature {
+	h3 {
+		font-size:18px;
+	}
 	@include make-sm-column(4);
 	margin-bottom: 2em;
 	.block-title {

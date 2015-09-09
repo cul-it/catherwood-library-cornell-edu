@@ -7615,6 +7615,8 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 2em; }
+  .home-feature h3 {
+    font-size: 18px; }
   @media (min-width: 768px) {
     .home-feature {
       float: left;
