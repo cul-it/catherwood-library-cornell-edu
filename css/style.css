@@ -7855,7 +7855,8 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 .search-home .filtered-search {
   font-size: 16px;
   color: #2c3235;
-  position: relative; }
+  position: relative;
+  z-index: 99; }
 
 .search-home .filtered-search .search-homepage {
   float: left;
