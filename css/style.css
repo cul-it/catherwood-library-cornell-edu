@@ -7564,7 +7564,7 @@ h5 {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
 .hero {
-  background: url("../img/hero/1.jpg") no-repeat;
+  background: url("../img/hero/3.jpg") no-repeat;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
@@ -7608,6 +7608,17 @@ h5 {
   @media (min-width: 768px) {
     .sidebar {
       right: 66.66667%; } }
+
+.catherwood-sidebar p {
+  font-size: 14px; }
+
+.catherwood-sidebar h2 {
+  font-size: 22px; }
+
+.catherwood-sidebar h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 1px; }
 
 .home-feature {
   position: relative;
