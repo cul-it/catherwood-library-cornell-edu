@@ -250,3 +250,9 @@
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+  jQuery(document).ready(function() { 
+  var randomImages = ['1','2','3','4']; 
+  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery(".kheel .hero").css({ background: "url('/sites/all/themes/caththeme/img/kheel/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+</script>
