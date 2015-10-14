@@ -155,7 +155,7 @@
     <!-- Pay attention to METHOD -->
     <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
 
-        <div class="block-title"><label for="name">Search <span class="search-filter-selected">Library Catalog</span></label></div>
+        <div class="block-title"><label for="name">Search <span class="search-filter-selected">Library</span></label></div>
 
 
         <div class="filtered-search">
