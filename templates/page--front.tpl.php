@@ -195,7 +195,7 @@
 
 <div class="main-content">
   <div class="container">
-  <div class="home-feature">
+  <div class="row">
         <?php print render($page['home_mission']); ?>
       </div>
     <?php print render($title_prefix); ?>
