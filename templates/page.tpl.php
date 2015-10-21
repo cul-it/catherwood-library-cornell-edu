@@ -100,7 +100,7 @@
             <?php endif; ?>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
   <header>
@@ -109,7 +109,7 @@
         <?php print render($page['mobile_nav']); ?>
       </div>
     <?php endif; ?>
-    
+
     <?php if (!empty($page['mobile_search'])): ?>
       <div id="mobile-search" class="collapse">
         <?php print render($page['mobile_search']); ?>
@@ -123,6 +123,10 @@
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
           <?php endif; ?>
         </div>
+      <div class="ilr-brand">
+        <a class="brand" href="http://www.ilr.cornell.edu/">  <img src="/sites/all/themes/caththeme/img/ilrlogo.png" alt="ILR School" height="55" style="position:relative; left:10px;"></a>
+      </div>
+
         <?php if (!empty($page['alert'])): ?>
           <div class="alert-box">
             <div class="well">
@@ -177,7 +181,7 @@
 
           </div>
 
-          
+
 
             <button type="submit" class="submit-search" href="#">
               <span class="glyphicon glyphicon-search"></span>
@@ -185,9 +189,9 @@
 
         </div>
 
-       
-    </form>  
-    </section>       
+
+    </form>
+    </section>
     </div>
 </div>
 </div>
@@ -196,7 +200,7 @@
   <div class="container">
     <?php if (!empty($page['sidebar'])): ?>
     <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <div class="row"> 
+      <div class="row">
         <div class="main-text">
           <?php print render($title_prefix); ?>
           <?php if (!empty($title)): ?>
@@ -251,8 +255,8 @@
   </div>
 </footer>
 <script type="text/javascript">
-  jQuery(document).ready(function() { 
-  var randomImages = ['1','2','3','4','5','6']; 
-  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery(document).ready(function() {
+  var randomImages = ['1','2','3','4','5','6'];
+  var rndNum = Math.floor(Math.random() * randomImages.length);
   jQuery(".kheel .hero").css({ background: "url('/sites/all/themes/caththeme/img/kheel/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>

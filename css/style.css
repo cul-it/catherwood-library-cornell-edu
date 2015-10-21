@@ -7511,6 +7511,9 @@ h5 {
       float: left;
       width: 66.66667%; } }
 
+.ilr-brand {
+  margin-top: 6em; }
+
 .brand {
   text-transform: uppercase;
   font-size: 42px;
