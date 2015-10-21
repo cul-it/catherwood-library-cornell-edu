@@ -100,7 +100,7 @@
             <?php endif; ?>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
   <header>
@@ -109,7 +109,7 @@
         <?php print render($page['mobile_nav']); ?>
       </div>
     <?php endif; ?>
-    
+
     <?php if (!empty($page['mobile_search'])): ?>
       <div id="mobile-search" class="collapse">
         <?php print render($page['mobile_search']); ?>
@@ -122,6 +122,9 @@
           <?php if (!empty($site_name)): ?>
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
           <?php endif; ?>
+        </div>
+        <div class="ilr-brand">
+          <a class="brand" href="http://www.ilr.cornell.edu/">  <img src="/sites/all/themes/caththeme/img/ilrlogo.png" alt="ILR School" height="55" style="position:relative; left:10px;"></a>
         </div>
         <?php if (!empty($page['alert'])): ?>
           <div class="alert-box">
@@ -144,7 +147,7 @@
   <?php endif; ?>
 </div>
 
-<!-- SEARCH BOX -->       
+<!-- SEARCH BOX -->
 <div class="search-home search-bar">
 
 <div class="container">
@@ -178,7 +181,7 @@
 
           </div>
 
-          
+
 
             <button type="submit" class="submit-search" href="#">
               <span class="glyphicon glyphicon-search"></span>
@@ -186,9 +189,9 @@
 
         </div>
 
-       
-    </form>  
-    </section>       
+
+    </form>
+    </section>
     </div>
 </div>
 </div>
@@ -242,8 +245,8 @@
 </footer>
 
 <script type="text/javascript">
-  jQuery(document).ready(function() { 
-  var randomImages = ['1','3','4']; 
-  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery(document).ready(function() {
+  var randomImages = ['1','3','4'];
+  var rndNum = Math.floor(Math.random() * randomImages.length);
   jQuery(".hero-front").css({ background: "url('/sites/all/themes/caththeme/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
