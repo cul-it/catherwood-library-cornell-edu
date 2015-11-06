@@ -88,10 +88,6 @@
                 <span class="sr-only">Menu</span>
                 <i class="fa fa-bars"></i>
               </button>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
-                <span class="sr-only">Search</span>
-                <i class="fa fa-search"></i>
-              </button>
             </div>
             <?php if (!empty($page['global_nav'])): ?>
               <div class="collapse navbar-collapse hidden-xs" id="menu">
@@ -109,12 +105,6 @@
         <?php print render($page['mobile_nav']); ?>
       </div>
     <?php endif; ?>
-
-    <?php if (!empty($page['mobile_search'])): ?>
-      <div id="mobile-search" class="collapse">
-        <?php print render($page['mobile_search']); ?>
-      </div>
-    <?php endif; ?>
     <div class="container">
       <div class="row">
         <div class="library-brand">
@@ -124,7 +114,7 @@
           <?php endif; ?>
         </div>
       <div class="ilr-brand">
-        <a class="brand" href="http://www.ilr.cornell.edu/">  <img src="/sites/all/themes/caththeme/img/ilrlogo.png" alt="ILR School" height="55" style="position:relative; left:10px;"></a>
+        <a class="brand" href="http://www.ilr.cornell.edu/">  <img src="/sites/all/themes/caththeme/img/ilrlogo2.png" alt="ILR School" class="img-responsive"></a>
       </div>
 
         <?php if (!empty($page['alert'])): ?>

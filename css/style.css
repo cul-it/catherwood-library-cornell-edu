@@ -7500,8 +7500,8 @@ h5 {
   color: white; }
 
 .library-brand {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7512,7 +7512,17 @@ h5 {
       width: 66.66667%; } }
 
 .ilr-brand {
-  margin-top: 6em; }
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 2em 0; }
+  @media (min-width: 768px) {
+    .ilr-brand {
+      float: left;
+      width: 33.33333%; } }
+  .ilr-brand img {
+    width: 40%; }
 
 .brand {
   text-transform: uppercase;
@@ -7534,7 +7544,6 @@ h5 {
   font-size: 24px;
   font-family: "Montserrat";
   display: block;
-  margin-bottom: .25em;
   text-shadow: 1px 1px 1px black; }
 
 .cul-brand:hover {
@@ -7557,15 +7566,22 @@ h5 {
     font-weight: 700;
     color: #b31b1b; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .brand {
-    font-size: 36px; } }
-/* Medium devices (desktops, 992px and up) */
+    font-size: 36px; }
+
+  .library-brand {
+    margin-top: 4em;
+    margin-bottom: 4em; }
+
+  .ilr-brand {
+    margin: 6.5em 0 0 0; }
+    .ilr-brand img {
+      width: 60%;
+      float: right; } }
 @media (min-width: 992px) {
   .brand {
     font-size: 48px !important; } }
-/* Large devices (desktops, 1200px and up) */
 .hero {
   background: url("../img/hero/3.jpg") no-repeat;
   -webkit-background-size: cover !important;
@@ -7726,8 +7742,7 @@ nav {
   background: #222;
   background: rgba(34, 34, 34, 0.75); }
   nav .nav li {
-    float: left;
-    padding-right: 15px; }
+    float: left; }
     nav .nav li a {
       color: white;
       font-size: 18px;
@@ -7802,18 +7817,19 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
     color: #222;
     font-weight: 700; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {
     float: right; }
 
   nav .navbar-nav > li > a {
-    font-size: 14px; } }
-/* Medium devices (desktops, 992px and up) */
+    font-size: 14px; }
+  nav .nav li a {
+    padding: 15px; } }
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
-    font-size: 16px; } }
-/* Large devices (desktops, 1200px and up) */
+    font-size: 16px; }
+  nav .nav li a {
+    padding: 15px 20px; } }
 .header-search {
   position: relative;
   min-height: 1px;
