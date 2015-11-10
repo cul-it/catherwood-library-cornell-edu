@@ -7522,7 +7522,7 @@ h5 {
       float: left;
       width: 33.33333%; } }
   .ilr-brand img {
-    width: 40%; }
+    width: 51%; }
 
 .brand {
   text-transform: uppercase;
@@ -7577,7 +7577,7 @@ h5 {
   .ilr-brand {
     margin: 6.5em 0 0 0; }
     .ilr-brand img {
-      width: 60%;
+      width: 71%;
       float: right; } }
 @media (min-width: 992px) {
   .brand {
