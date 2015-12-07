@@ -238,5 +238,5 @@
   jQuery(document).ready(function() {
   var randomImages = ['1','3','4'];
   var rndNum = Math.floor(Math.random() * randomImages.length);
-  jQuery(".hero-front").css({ background: "url('/sites/all/themes/caththeme/img/hero/1.jpg') no-repeat" }); });
+  jQuery(".hero-front").css({ background: "url('/sites/all/themes/caththeme/img/hero/select.jpg') no-repeat" }); });
 </script>
