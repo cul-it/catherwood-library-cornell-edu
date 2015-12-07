@@ -60,6 +60,7 @@
   <![endif]-->
   <?php print $scripts; ?>
 </head>
+
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
@@ -68,7 +69,7 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
   <script>
-    jQuery(document).ready(function() { 
+    jQuery(document).ready(function() {
       jQuery( '.cul-icon-chevron' ).before( '<i class="fa fa-chevron-right"></i>' );
     });
   </script>

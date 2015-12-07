@@ -106,7 +106,7 @@
       </div>
     <?php endif; ?>
     <div class="container">
-      <div class="row">
+      <div class="row brand-container">
         <div class="library-brand">
           <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
           <?php if (!empty($site_name)): ?>
@@ -116,7 +116,6 @@
       <div class="ilr-brand">
         <a class="brand" href="http://www.ilr.cornell.edu/">  <img src="/sites/all/themes/caththeme/img/ilrlogo2.png" alt="ILR School" class="img-responsive"></a>
       </div>
-
         <?php if (!empty($page['alert'])): ?>
           <div class="alert-box">
             <div class="well">
@@ -202,5 +201,5 @@
   jQuery(document).ready(function() {
   var randomImages = ['1','2','3','4','5','6'];
   var rndNum = Math.floor(Math.random() * randomImages.length);
-  jQuery(".kheel .hero").css({ background: "url('/sites/all/themes/caththeme/img/kheel/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".kheel .hero").css({ background: "url('/sites/all/themes/caththeme/img/kheel/3.jpg') no-repeat" }); });
 </script>

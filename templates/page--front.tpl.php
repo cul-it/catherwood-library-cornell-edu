@@ -106,7 +106,7 @@
       </div>
     <?php endif; ?>
     <div class="container">
-      <div class="row">
+      <div class="row brand-container">
         <div class="library-brand">
           <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
           <?php if (!empty($site_name)): ?>
@@ -238,5 +238,5 @@
   jQuery(document).ready(function() {
   var randomImages = ['1','3','4'];
   var rndNum = Math.floor(Math.random() * randomImages.length);
-  jQuery(".hero-front").css({ background: "url('/sites/all/themes/caththeme/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".hero-front").css({ background: "url('/sites/all/themes/caththeme/img/hero/1.jpg') no-repeat" }); });
 </script>

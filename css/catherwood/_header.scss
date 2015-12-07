@@ -1,3 +1,13 @@
+// Brand container
+// ------------------- //
+
+.brand-container {
+	background: $dark-gray;
+	background: rgba(34, 34, 34, 0.5);
+	margin-bottom:12em;
+	margin-top:0em
+}
+
 // Cornell brand
 // ------------------- //
 
@@ -18,8 +28,6 @@
 // Library brand
 // ------------------- //
 .library-brand {
-	margin-top: 2em;
-	margin-bottom: 2em;
 	@include make-sm-column(8);
 }
 
@@ -79,18 +87,11 @@
 		font-size: 36px;
 	}
 	.library-brand {
-		margin-top: 4em;
-		margin-bottom: 4em;
-	}
-	.kheel .library-brand {
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-	.kheel .ilr-brand {
-		margin: 7.5em 0 0 0;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 	.ilr-brand {
-		margin: 6.5em 0 0 0;
+		margin: 3.5em 0 0 0;
 		img {
 			width: 71%;
 			float: right;
