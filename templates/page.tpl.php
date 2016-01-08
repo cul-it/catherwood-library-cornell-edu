@@ -105,7 +105,7 @@
         <?php print render($page['mobile_nav']); ?>
       </div>
     <?php endif; ?>
-    <div class="container">
+    <div class="container kheel-wrapper">
       <div class="row brand-container">
         <div class="library-brand">
           <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
@@ -197,9 +197,4 @@
     </div>
   </div>
 </footer>
-<script type="text/javascript">
-  jQuery(document).ready(function() {
-  var randomImages = ['1','2','3','4','5','6'];
-  var rndNum = Math.floor(Math.random() * randomImages.length);
-  jQuery(".kheel .hero").css({ background: "url('/sites/all/themes/caththeme/img/kheel/gears.jpg') no-repeat" }); });
-</script>
+

@@ -7594,11 +7594,15 @@ h5 {
   background-size: cover !important; }
 
 .kheel .hero {
-  background: url("../img/kheel/womansorting.jpg") no-repeat;
+  background: #555 !important; }
+
+.kheel-wrapper {
+  background: url("../img/kheel/womancropped2.jpg") no-repeat !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important; }
+  background-size: cover !important;
+  min-height: 500px; }
 
 .main-content {
   background: white;
