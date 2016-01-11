@@ -123,7 +123,7 @@ jQuery(document).ready(function ($) {
           switch ($selectedFilter) {
 
                 case 'Library Catalog':
-                    $(this).attr("action", 'https://search.library.cornell.edu');
+                    $(this).attr("action", 'https://newcatalog.library.cornell.edu/search');
                     break;
 
                 case 'WorldCat':

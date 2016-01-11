@@ -146,7 +146,7 @@
 <section id="home-search">
 
     <!-- Pay attention to METHOD -->
-    <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+    <form id="search" name="form1" method="get" action="https://newcatalog.library.cornell.edu/search">
 
         <div class="block-title"><label for="name">Search <span class="search-filter-selected">Library</span></label></div>
 
